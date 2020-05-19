@@ -34,7 +34,7 @@ In all cases the system call executes another program as a command-line applicat
 
 ### Making your code separately executable
 
-Imagine that you are doing your analysis using software A (where A can be either Python, MATLAB or R) and you want to execute an analysis step in software B. You can use a `system()` call to execute a command line application.
+Imagine that you are doing your analysis using software "A" (where "A" is either Python, MATLAB or R) and you want to execute an analysis step in another software "B". You can use a `system()` call to execute a command line application.
 
 Using the [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) syntax you can make scripts in each of the languages directly executable.
 
@@ -78,8 +78,9 @@ This probably goes similar to the Python or MATLAB strategies outlined above.
 
 ## Exchanging parameters and data between your code
 
-TODO : explain parameter handling
-TODO : explain input/output files
+Since you probably also have to deal with parameters, input files, and output files, it is recommended to make a generic wrapper in "A" around the code you want to execute using "B".
+
+TODO: explain parameter handling, and explain input/output files
 
 ## Using glue code and API bindings
 
@@ -89,7 +90,7 @@ In many programming (or data analysis) environments it is possible to execute co
 -   MATLAB has [MEX files](https://nl.mathworks.com/help/matlab/call-mex-file-functions.html?s_tid=CRUX_lftnav) for C/C++ and Fortran code
 -   MATLAB can access existing [Java classes](https://nl.mathworks.com/help/matlab/using-java-libraries-in-matlab.html?s_tid=CRUX_lftnav)
 -   MATLAB can also execute functions and objects in [Python](https://nl.mathworks.com/help/matlab/call-python-libraries.html?s_tid=CRUX_lftnav)
--   R can call external [C code](http://mazamascience.com/WorkingWithData/?p=1067)
+-   R can call external [C and Fortran code](https://cran.r-project.org/doc/manuals/R-exts.html#System-and-foreign-language-interfaces)
 
 # Using an execution environment
 
