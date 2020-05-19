@@ -1,5 +1,3 @@
-class: center, middle
-
 # Interoperability between Python, MATLAB, R, etc.
 
 Sanne asked the question _"I often switch during my analysis between different programs, such as Python, MATLAB, and R. How can I automate this and make easier analysis scripts that are easier to develop, run and maintain?"_
@@ -7,7 +5,7 @@ Sanne asked the question _"I often switch during my analysis between different p
 # Outline
 
 - Simple: using wrappers
-  - Quick and dirty: use the system() call 
+  - Quick and dirty: use the system() call
   - Intermediate: using glue code or API bindings
 - Sophisticated: use an external execution environment
 
@@ -28,17 +26,55 @@ or using the external SIMBIO software
 2. fieldtrip/forward/ft_headmodel_simbio
 3. fieldtrip/external/simbio (mex files)
 
-# Use the system() call 
+# Use the system() call
 
 The simplest way to call one piece of software, while you are working in another software is often to use the `system()` call. This is available in Python as [os.system](https://docs.python.org/3/library/os.html#os.system), in MATLAB as the [system](https://nl.mathworks.com/help/matlab/ref/system.html) function, and in R also as [system](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/system).
 
 In all cases the system call executes another program as a command-line application (as in the terminal on Linux and macOS). So if you write the analysis in the other language as a command-line application, you are good to go.
 
-## Making your code executable
+## Making your code separately executable
 
-TODO: explain hash-shebang
+Imagine that you are doing your analysis using software A (where A can be either Python, MATLAB or R) and you want to execute an analysis step in software B. You can use a `system()` call to execute a command line application.
 
-## Exchanging options and data between your code
+Using the [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) syntax you can make scripts in each of the languages directly executable.
+
+# Making Python scripts executable
+
+Your Python script `test.py` would start with
+
+```bash
+#!/usr/bin/env python
+
+import argparse
+from glob import glob
+import numpy as np
+
+# here comes your Python code that deals with
+# 1. the command-line options and the input files
+# 2. performs the computations
+# 3. writes the results to the STDOUT output or (better) to an output file
+
+```
+
+# Making MATLAB scripts executable
+
+Your MATLAB script `test.m` cannot start with `#!/usr/bin/env matlab`, since the MATLAB interpreter does not understand the `#` as a commented out line and would give an error. Also, the Instead you could use some helper code like this
+
+```bash
+#!/usr/bin/env matlab_runner.sh
+
+% here comes your MATLAB code that deals with
+% 1. the command-line options and the input files
+% 2. performs the computations
+% 3. writes the results to the STDOUT output or (better) to an output file
+
+```
+
+Where `matlab_runner.sh` would be a BASH script that strips the first line from the m-file and that in principle executes `matlab -r "strippedfile`. Furthermore, you should not run the stripped file just like that: if it contains an error MATLAB would halt but would not close and exit properly. So on top of this, you need another MATLAB code runner script with a `try-catch` to ensure that MATLAB always exits properly. Furthermore, you might want to set your path and present working directory in that MATLAB runner function.
+
+TODO: share the `matlab_runner.sh` and `matlab_runner.m` files.
+
+## Exchanging parameters and data between your code
 
 TODO : explain input/output files
 
@@ -61,7 +97,3 @@ In many programming (or data analysis) environments it is possible to execute co
 - [LONI](http://pipeline.loni.usc.edu)
 - [Taverna](https://taverna.incubator.apache.org)
 - Galaxy
-
-
-
-
