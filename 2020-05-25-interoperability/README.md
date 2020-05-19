@@ -147,7 +147,7 @@ When calling MATLAB from within Python, you would write a Python function `test2
 
 ## Using API bindings for another language
 
-In many programming (or data analysis) environments it is possible to execute code that is implemented in other programming languages. For example
+In many programming (or data analysis) environments it is possible to execute code that is implemented in other programming languages.
 
 -   Python has an [API](https://docs.python.org/3/c-api/index.html) that allows programmers to extend it with C/C++ code
 -   MATLAB has [MEX files](https://nl.mathworks.com/help/matlab/call-mex-file-functions.html?s_tid=CRUX_lftnav) for C/C++ and Fortran code
