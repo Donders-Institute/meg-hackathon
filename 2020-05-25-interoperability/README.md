@@ -1,6 +1,6 @@
 # Interoperability between Python, MATLAB, R, etc.
 
-Sanne asked the question _"I often switch during my analysis between different programs, such as Python, MATLAB, and R. How can I automate this and make easier analysis scripts that are easier to develop, run and maintain?"_
+Sanne asked the question _"I often switch during my analysis between different programs, such as Python, MATLAB, Julia, and R. How can I automate this and make easier analysis scripts that are easier to develop, run and maintain?"_
 
 # Outline
 
@@ -17,14 +17,14 @@ It is common for larger projects (or analysis pipelines) to have complex depende
 
 The distinction is in reality more complex, since in general there are more layers. It is common that low-level code encapsulates even lower-level code (e.g. in private functions), but there can also be higher level code such as wrappers made by the researcher himself.
 
-In general you can think of the code being organized in layers. The following example in FieldTrip for example applies to the EEG forward model computations using the external OpenMEEG software:
+In general you can think of the code being organized in a [hierarchical structure with multiple layers](https://www.google.com/search?q=hierarchical+software+stack+organization&client=safari&rls=en&sxsrf=ALeKk024AsgZVGapGEvgsFjt0_uQ58yrgg:1590045625487&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjD6LvFtcTpAhXPzqQKHWAhAdYQ_AUoAXoECA0QAw&biw=1566&bih=1012). The following example in FieldTrip for example applies to EEG forward model leadfield computations using the external OpenMEEG software that is implemented as a C/C++ command-line application:
 
 1.  fieldtrip/ft_prepare_headmodel, which calls
 2.  fieldtrip/forward/ft_headmodel_openmeeg, which calls
 3.  fieldtrip/external/om_assemble, which calls
 4.  om_assemble Linux command-line executables
 
-or using the external SIMBIO software
+or using the external SIMBIO software that uses mex files with a mix of C and Fortran:
 
 1.  fieldtrip/ft_prepare_headmodel, which calls
 2.  fieldtrip/forward/ft_headmodel_simbio, which calls
@@ -32,7 +32,7 @@ or using the external SIMBIO software
 
 ## Use the system() call
 
-The simplest way to call external software when working in an interpreted enviroment is to use the `system()` call. This is available in Python as [os.system](https://docs.python.org/3/library/os.html#os.system), in MATLAB as the [system](https://nl.mathworks.com/help/matlab/ref/system.html) function, and in R also as [system](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/system).
+The simplest way to call external software when working in an interpreted enviroment is to use the `system()` call. This is available in Python as [os.system](https://docs.python.org/3/library/os.html#os.system), in MATLAB as the [system](https://nl.mathworks.com/help/matlab/ref/system.html) function, In Julia using [backticks and the run command](https://docs.julialang.org/en/v1/manual/running-external-programs/), and in R as [system](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/system).
 
 In all cases the `system()`` call executes another program as a command-line application, just like how it would be executed in the Linux or macOS terminal. So if you can write the piece of your analysis as a command-line application, you are good to go.
 
@@ -133,9 +133,13 @@ Try copying this in a file `test2.m`, make it executable with `chmod +x test2.m`
 
 _Note that the strategy above is also more or less how the evaluation of `qsubcellfun` and `qsubfeval` works, see [here](http://www.fieldtriptoolbox.org/faq/how_to_get_started_with_distributed_computing_using_qsub/) for details._
 
+### Making Julia scripts executable
+
+This works similar to Python, using the shebang syntax. See also [this post](https://discourse.julialang.org/t/useful-julia-script-tips-workaround-shebang/15584) on passing options to Julia.   
+
 ### Making R scripts executable
 
-This would probably be similar to the Python or MATLAB strategies outlined above.
+This works similar to Python, using the shebang syntax. See for example [this post](http://www.cureffi.org/2014/01/15/running-r-batch-mode-linux/).
 
 ### Exchanging parameters and input/output data
 
@@ -150,12 +154,14 @@ When calling MATLAB from within Python, you would write a Python function `test2
 In many programming (or data analysis) environments it is possible to execute code that is implemented in other programming languages.
 
 -   Python has an [API](https://docs.python.org/3/c-api/index.html) that allows programmers to extend it with C/C++ code
+-   In Python you can also execute [Julia](https://pyjulia.readthedocs.io/en/latest/) code
 -   MATLAB has [MEX files](https://nl.mathworks.com/help/matlab/call-mex-file-functions.html?s_tid=CRUX_lftnav) for C/C++ and Fortran code
--   MATLAB can access existing [Java classes](https://nl.mathworks.com/help/matlab/using-java-libraries-in-matlab.html?s_tid=CRUX_lftnav)
--   MATLAB can also execute functions and objects in [Python](https://nl.mathworks.com/help/matlab/call-python-libraries.html?s_tid=CRUX_lftnav)
+-   MATLAB can access and execute [Java classes](https://nl.mathworks.com/help/matlab/using-java-libraries-in-matlab.html?s_tid=CRUX_lftnav), which is also used in its own graphical user interface and desktop
+-   MATLAB can execute functions and objects in [Python](https://nl.mathworks.com/help/matlab/call-python-libraries.html?s_tid=CRUX_lftnav)
+-   Julia can call external [C and Fortran code](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/)
 -   R can call external [C and Fortran code](https://cran.r-project.org/doc/manuals/R-exts.html#System-and-foreign-language-interfaces)
 
-The advantage of this tighter binding over using the `system()` call is that you can directly pass variables between the two, since they share the same memory. There is no need to write input and output data to intermediate files.
+ The advantage of this tighter binding over using the `system()` call is that you can directly pass variables between the two; there is no need to transfer input and output data using temporary files.
 
 # Using an execution environment
 
