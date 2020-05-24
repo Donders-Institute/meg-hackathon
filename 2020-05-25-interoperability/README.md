@@ -169,8 +169,8 @@ R              | has interfaces to [C++](https://cran.r-project.org/web/packages
 
 # Using an execution environment
 
--   GNU Make and [Makefiles](https://en.wikipedia.org/wiki/Makefile)
--   nipype
+-   GNU Make and [Makefiles](https://en.wikipedia.org/wiki/Makefile) allow you to specify dependencies so only parts that have changed are updated.
+-   [nipype](https://nipype.readthedocs.io/en/latest/examples.html)
 -   psom
 -   [LONI](http://pipeline.loni.usc.edu)
 -   [Taverna](https://taverna.incubator.apache.org)
