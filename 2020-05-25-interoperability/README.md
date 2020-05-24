@@ -154,12 +154,12 @@ When calling MATLAB from within Python, you would write a Python function `test2
 In many programming (or data analysis) environments it is possible to execute code that is implemented in other programming languages.
 
 -   Python has an [API](https://docs.python.org/3/c-api/index.html) that allows programmers to extend it with C/C++ code
--   In Python you can also execute [Julia](https://pyjulia.readthedocs.io/en/latest/) code
+-   In Python you can also execute [Julia](https://pyjulia.readthedocs.io/en/latest/), [R](https://rpy2.github.io/), and [Stan](https://pystan.readthedocs.io/en/latest/getting_started.html) code.
 -   MATLAB has [MEX files](https://nl.mathworks.com/help/matlab/call-mex-file-functions.html?s_tid=CRUX_lftnav) for C/C++ and Fortran code
 -   MATLAB can access and execute [Java classes](https://nl.mathworks.com/help/matlab/using-java-libraries-in-matlab.html?s_tid=CRUX_lftnav), which is also used in its own graphical user interface and desktop
 -   MATLAB can execute functions and objects in [Python](https://nl.mathworks.com/help/matlab/call-python-libraries.html?s_tid=CRUX_lftnav)
--   Julia can call external [C and Fortran code](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/)
--   R can call external [C and Fortran code](https://cran.r-project.org/doc/manuals/R-exts.html#System-and-foreign-language-interfaces)
+-   Julia can call external [C and Fortran code](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/) and has packages providing support for calling code and manipulating data from [C++](https://github.com/JuliaInterop/CxxWrap.jl), [Java](https://github.com/JuliaInterop/JavaCall.jl), [MATLAB](https://github.com/JuliaInterop/MATLAB.jl), [Python](https://github.com/JuliaPy/PyCall.jl/), [R](https://github.com/JuliaInterop/RCall.jl/) (including [compatibility between MixedModels.jl and lme4](https://github.com/palday/JellyMe4.jl).
+-   R can call external [C and Fortran code](https://cran.r-project.org/doc/manuals/R-exts.html#System-and-foreign-language-interfaces) and has interfaces to [C++](https://cran.r-project.org/web/packages/Rcpp/index.html), [Python](https://rstudio.github.io/reticulate/), [Julia](https://cran.r-project.org/web/packages/JuliaCall/readme/README.html) and [Stan](https://mc-stan.org/rstan/) (see also [here](https://mc-stan.org/cmdstanr/)).
 
  The advantage of this tighter binding over using the `system()` call is that you can directly pass variables between the two; there is no need to transfer input and output data using temporary files.
 
