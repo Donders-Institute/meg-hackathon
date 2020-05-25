@@ -34,7 +34,7 @@ or using the external SIMBIO software that uses mex files with a mix of C and Fo
 
 The simplest way to call external software when working in an interpreted enviroment is to use the `system()` call. This is available in Python as [os.system](https://docs.python.org/3/library/os.html#os.system), in MATLAB as the [system](https://nl.mathworks.com/help/matlab/ref/system.html) function, In Julia using [backticks and the run command](https://docs.julialang.org/en/v1/manual/running-external-programs/), and in R as [system](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/system).
 
-In all cases the `system()`` call executes another program as a command-line application, just like how it would be executed in the Linux or macOS terminal. So if you can write the piece of your analysis as a command-line application, you are good to go.
+In all cases the `system()` call executes another program as a command-line application, just like how it would be executed in the Linux or macOS terminal. So if you can write the piece of your analysis as a command-line application, you are good to go.
 
 ### Transforming your code in a command-line application
 
