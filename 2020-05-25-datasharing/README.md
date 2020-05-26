@@ -36,6 +36,8 @@ A good way to go would be to have data+code stored at a DR and the code also ava
 
 ## Stages Radboud repository:
 
+![alt text](https://raw.githubusercontent.com/Donders-Institute/meg-hackathon/master/2020-05-25-datasharing/shared%20collection%20states.png)
+
 - Editable (read and write)
 - Internal review (read only)
   - No changes any more
