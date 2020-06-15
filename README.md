@@ -2,7 +2,7 @@
 
 MEG/EEG hackathon series on Open Science, Coding Skills, etc.
 
-To be informed about meetings and to chat along, please join us on the [DCCN Mattermost](https://mattermost.socsci.ru.nl/dccn/channels/megeeg-hackathon).
+To be informed about meetings and to chat along, please join us on the [DCCN Mattermost](https://mattermost.socsci.ru.nl/dccn/channels/meg-hackathon).
 
 To contribute, please head over to the [meg-hackathon](https://github.com/Donders-Institute/meg-hackathon) repository on GitHub.
 
