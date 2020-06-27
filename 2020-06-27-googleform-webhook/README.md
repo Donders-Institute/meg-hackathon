@@ -1,4 +1,4 @@
-# Process something on the DCCN compute cluster with a google form
+# Using a Google form and a webhook to execute a script on the DCCN compute cluster
 
 In the previous weeks we explored how to automate processes, e.g. using webhooks. The specific example we worked on was to automate the process of participant enrollment for [dancing classes](http://www.swingoutmaastricht.com).  
 
