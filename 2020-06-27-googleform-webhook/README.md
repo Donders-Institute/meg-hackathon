@@ -132,7 +132,7 @@ To implement the script that parses and processes the payload, you don't have to
 
 ### Testing the payload content
 
-For more detailled control over the webhook at the data that gets posted to it, you can use specialized software such as <https://www.postman.com> to craft specific POST messages. This bypasses the google form.
+For more detailled control over the webhook at the data that gets posted to it, you can use specialized software such as <https://www.postman.com> or an online service like <https://reqbin.com> to craft specific POST messages. This bypasses the google form.
 
 ### Testing the webhook delivery
 
