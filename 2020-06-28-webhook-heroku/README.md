@@ -73,7 +73,7 @@ The `Procfile` specifies how the process is to be started. In this case it also 
 web: python hello_simple.py
 ```
 
-The files can also be found in the `hello_simple` directory of [this repository](https://github.com/Donders-Institute/meg-hackathon/2020-06-28-webhook-heroku) on GitHub.
+The files can also be found in the `hello_simple` directory of [this repository](https://github.com/Donders-Institute/meg-hackathon/tree/master/2020-06-28-webhook-heroku) on GitHub.
 
 I assume that you already have `git` and `heroku` installed.
 
@@ -94,7 +94,7 @@ touch runtime.txt
 touch Procfile
 ```
 
-Use an editor to add the content to each of the files, or copy them over from [this repository](https://github.com/Donders-Institute/meg-hackathon/2020-06-28-webhook-heroku).
+Use an editor to add the content to each of the files, or copy them over from [this repository](https://github.com/Donders-Institute/meg-hackathon/tree/master/2020-06-28-webhook-heroku).
 
 You can run your applciation locally with
 
@@ -175,7 +175,7 @@ touch runtime.txt
 touch Procfile
 ```
 
-Use an editor to copy the content over from [this repository](https://github.com/Donders-Institute/meg-hackathon/2020-06-28-webhook-heroku).
+Use an editor to copy the content over from [this repository](https://github.com/Donders-Institute/meg-hackathon/tree/master/2020-06-28-webhook-heroku).
 
 You also have to install some external Python packages
 
@@ -193,9 +193,7 @@ python hello_flask.py
 
 and use your browser to connect to the page on your server on <http://localhost:5000>.
 
-If you look at the Python code that implements the application, you see that there is a handler for `/` and a handler for `/post`. You can test the first one with
-
-http://localhost:5000/?name=Robert
+If you look at the Python code that implements the application, you see that there is a handler for `/` and a handler for `/post`. You can test the first one by opening the URL <http://localhost:5000/?name=Robert> in your browser.
 
 Testing the `/post` handler can be done from the command line as follows
 
