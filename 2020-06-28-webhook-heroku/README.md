@@ -155,7 +155,7 @@ This ampplication application requires the following files
 - runtime.txt
 - Procfile
 
-The files can be found in the `hello_flask` directory of this repository on GitHub. Compared to the simple example, the `requirements.txt` now lists some requirements. Furthermore, the hello_flask.py web application can parse arguments from the URL and can deal with JSON data that is posted.
+The files can be found in the `hello_flask` directory of [this repository](https://github.com/Donders-Institute/meg-hackathon/tree/master/2020-06-28-webhook-heroku) on GitHub. Compared to the simple example, the `requirements.txt` now lists some requirements. Furthermore, the hello_flask.py web application can parse arguments from the URL and can deal with JSON data that is posted.
 
 I assume that you already have `git` and `heroku` installed.
 
