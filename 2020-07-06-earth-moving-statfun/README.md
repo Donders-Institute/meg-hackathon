@@ -1,6 +1,6 @@
 # Statistical testing of EEG topographies
 
-Yang, Philip and Robert had a look at the statistical analysis of Yang, who has question whether the spatial topopgraphy of the power in alpha is different from that in beta. She had already identified the [Earth mover's distance](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) or EMD as statistic of interest.
+Yang, Philip and Robert had a look at the statistical analysis of Yang, who has question whether the spatial topopgraphy of the source-reconstructed EEG power in alpha is different from that in beta. She had already identified the [Earth mover's distance](https://en.wikipedia.org/wiki/Earth_mover%27s_distance) or EMD as statistic of interest.
 
 Under the null-hypothesis the EMD between the alpha and beta distributions would not be different for the observed assignment of the data over the two frequencies, compared to the randomization distribution of the EMD. The EMD can be used to quantify how different the distributions are, so we compute the randomization distribution of the EMD.
 
@@ -11,7 +11,6 @@ Let's start by simulating some (random) data that resembles the spatial source-l
 Using the `inside` field we can specify the region opf interest. Normally that is inside the brain, but it can also be inside a region of interest according to some anatomical or functional atlas.
 
 ```matlab
-
 % the source positions are the same for all subjects
 % take random positions
 % pos = randn(100,3);
@@ -45,7 +44,6 @@ for i=1:nsubj
   beta{i}.pow = randn(prod(dim),1)+1; % add a bit difference
   beta{i}.powdimord = 'pos';
   beta{i}.inside = inside;
-   
 end
 ```
 
@@ -126,6 +124,5 @@ betadata  = betadata(cfg.inside, :);
 
 % FIXME compute the earth-movers-distance and return it
 keyboard
-
 
 ```
