@@ -12,3 +12,4 @@ To contribute, please head over to the [meg-hackathon](https://github.com/Donder
 - 2020-06-27 [Using a Google form and a webhook to execute a script on the DCCN compute cluster](2020-06-27-googleform-webhook)
 - 2020-06-28 [Using Heroku to serve a webhook with Python code](2020-06-28-webhook-heroku)
 - 2020-07-06 [Statistical testing of EEG topographies](2020-07-06-earth-moving-statfun)
+- 2020-09-03 [Using GitHub as a lab](2020-09-03-github-labs)
