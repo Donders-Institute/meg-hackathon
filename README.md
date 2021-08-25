@@ -2,9 +2,9 @@
 
 MEG/EEG hackathon series on Open Science, Coding Skills, etc.
 
-To be informed about meetings and to chat along, please join us on the [DCCN Mattermost](https://mattermost.socsci.ru.nl/dccn/channels/meg-hackathon).
+Join us on the [DCCN Mattermost](https://mattermost.socsci.ru.nl/dccn/channels/meg-hackathon) to be informed about meetings, to contribute, to get support, and to provide support to your colleagues.
 
-To contribute, please head over to the [meg-hackathon](https://github.com/Donders-Institute/meg-hackathon) repository on GitHub.
+To add or improve documentation, please head over to the [meg-hackathon](https://github.com/Donders-Institute/meg-hackathon) repository on GitHub.
 
 - 2020-05-25 [Interoperability between Python, MATLAB, R, etc.](2020-05-25-interoperability)
 - 2020-05-25 [Data and code sharing via the Donders Repository and/or via GitHub](2020-05-25-datasharing)
