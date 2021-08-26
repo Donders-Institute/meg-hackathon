@@ -1,4 +1,4 @@
-# How to run nice and efficient hybrid meetings at the DCCN
+# How to run nice and efficient hybrid meetings
 
 TL;DR. For concrete recommendations you can jump to
 
