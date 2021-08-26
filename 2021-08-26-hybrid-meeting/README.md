@@ -28,10 +28,6 @@ These rooms also have a general purpose presentation computer that is hooked up 
 
 You can also connect your own laptop to the LCD screen and audio using a HDMI cable and select that as the source on the [AMX switch panel](https://intranet.donders.ru.nl/index.php?id=audio-video).
 
-### How to run a IRL meeting
-
-For reference, prior to the COVID pandemic, we would usually run meetings in which only few people would bring a laptop. The host or presenter would log in on the desktop PC with their DCCN account, or run the presentation from their own laptop. The presenter would use the large projection or LCD screen on the wall, and the attendees would switch attention between the screen (looking sideways) and the other attendees at the table. 
-
 ### How to run a hybrid meeting
 
 For hybrid meetings in the smaller rooms we assume that people attending in real life and people attending online are equally important. The host is assumed to be present in real life as somebody needs to open the room and set it up. The presenter and/or discussion partners could be either working from home, or be present in real life.
