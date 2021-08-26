@@ -13,3 +13,4 @@ To add or improve documentation, please head over to the [meg-hackathon](https:/
 - 2020-06-28 [Using Heroku to serve a webhook with Python code](2020-06-28-webhook-heroku)
 - 2020-07-06 [Statistical testing of EEG topographies](2020-07-06-earth-moving-statfun)
 - 2020-09-03 [Using GitHub as a lab](2020-09-03-github-labs)
+- 2021-08-26 [How to run nice and efficient hybrid meetings](2021-08-26-hybrid-meeting)
