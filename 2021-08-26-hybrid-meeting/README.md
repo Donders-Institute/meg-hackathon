@@ -57,7 +57,7 @@ For IRL attendees without their own device, it is harder to observe detailled fa
 
 The large colloquium room in the DCCN has about 100 seats, plus an additional 20 seats on the balcony. The Red Room is commonly used for lectures and presentations where one central person addresses the audience, where the audience ask questions, and where the audience does not interact directly among themselves. This is a one-to-many setup. 
 
-The video/audio presentation setup is rather sophisticated and hence complex. There is a general purpose presentation desktop computer that is hooked up to the beamer and the two LCD screens in the lectern. The presentation computer also connects to the room audio. You can connect your own laptop using HDMI or VGA and select that as the source on the [AMX iPad](https://intranet.donders.ru.nl/index.php?id=audio-video). 
+The video/audio presentation setup is rather sophisticated and hence complex. There is a general purpose presentation desktop computer that is hooked up to the beamer and the two LCD screens in the lectern. The presentation computer also connects to the room audio. You can connect your own laptop using HDMI or VGA and select that as the source on the [AMX iPad](https://intranet.donders.ru.nl/index.php?id=audio-video) that is mounted on the lectern. 
 
 Besides the computer as an audio source, there is a gooseneck microphone mounted on the lectern, a wireless headset microphone, and a wireless hand-held microphone.
 
