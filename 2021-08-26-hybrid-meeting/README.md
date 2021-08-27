@@ -6,6 +6,8 @@ TL;DR. For concrete recommendations you can jump to
 - [How to run a hybrid lecture/presentation in the Red Room](#How-to-run-a-hybrid-lecturepresentation)
 - [How to organize hybrid teaching in the instruction rooms](#How-to-organize-hybrid-teaching)
 
+The structure in the following text is that it is organized per type of room (meeting rooms, colloquim room, instruction rooms, huddle rooms), for each room an inventory is presented and the typical use of the room is described. Subsequently a recommendation is given for organizing the typical meeting in that room in a hybrid (in real-life and online) fashion.
+
 ## Meeting rooms
 
 We have a number of meeting rooms at the DCCN for meetings ranging from about 5 to 20 people. We commonly use these for group meetings where someone might present, but the interaction between all attendees is relatively symmetric and there is a lot of discussion. This is a many-to-many setup.
@@ -59,7 +61,7 @@ The video/audio presentation setup is rather sophisticated and hence complex. Th
 
 Besides the computer as an audio source, there is a gooseneck microphone mounted on the lectern, a wireless headset microphone, and a wireless hand-held microphone.
 
-There is a webcam mounted on the lectern.
+There is a webcam mounted on the lectern, pointing to the lecturer.
 
 There is an [Epiphan](https://www.epiphan.com) video capture and streaming device with an analog camera mounted on the balcony that gives an overview of the stage, including the presenter and the large projection screen.
 
@@ -89,13 +91,13 @@ TO BE FURTHER DISCUSSED:
 
 ## Instruction rooms 
 
-These rooms are commonly used for teaching, combining lecturing with hands-on computer excercises. This is a one-to-many setup.
+We have two instruction rooms at the DCCN where attendees are seated behind a table. These rooms are commonly used for teaching, combining lecturing with hands-on computer excercises. When not in use for group-wise instructions, the rooms are used by interns and temporary visitors. The common use case for these rooms is a one-to-many setup.
 
-The instruction rooms have a desk for the lecturer with a desktop presentation computer and the possibility to connect a laptop over HDMI or VGA. 
+Both instruction rooms have a desk for the lecturer with a desktop presentation computer and the possibility to connect a laptop over HDMI or VGA. 
 
-The instruction rooms have a gooseneck microphone mounted on the lecturers desk, a wireless headset microphone and a wireless hand-held microphone. 
+Both instruction rooms have a gooseneck microphone mounted on the lecturers desk, a wireless headset microphone and a wireless hand-held microphone.
 
-The instruction rooms also have an [Epiphan](https://www.epiphan.com) video capture and streaming device with an analog camera mounted at the ceiling in the back of the room, giving an overview of the lecturer and the screen. 
+The instruction rooms also have an [Epiphan](https://www.epiphan.com) video capture and streaming device with an analog camera mounted at the ceiling in the back of the room, giving an overview of the lecturer and the screen. Note that there is one Epiphan device shared between the two rooms, so check with the technical group if you need it in one of the rooms.
 
 ### Large instruction room (1.160)
 
@@ -126,6 +128,8 @@ TO BE FURTHER DISCUSSED:
 We also have a number of small huddle rooms that accomodate 2-4 people. These don't have names like the others, and they cannot be reserved. These rooms are typically used to meet with a few people.
 
 There is a general purpose presentation computer and a wall-mounted LCD screen with a webcam on top of it. You can also connect your own laptop to the LCD screen and audio using a HDMI cable and select that as the source on the [AMX switch panel](https://intranet.donders.ru.nl/index.php?id=audio-video).
+
+Using these huddle rooms for hybrid meetings is similar to having multiple people together behind a single desk. If there are two or more people present in real-life, you should use the webcam microphone and speakers of either the installed computer or of your laptop. If there is only one person, using a headset will improve the audio quality, not only for you, but also for the people attending online as the meeting software does not have to do feedback correction.
 
 ## When and how to use the Epiphan
 
