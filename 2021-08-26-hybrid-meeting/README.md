@@ -6,52 +6,50 @@ TL;DR. For concrete recommendations you can jump to
 - [How to run a hybrid lecture/presentation in the Red Room](#How-to-run-a-hybrid-lecturepresentation)
 - [How to organize hybrid teaching in the instruction rooms](#How-to-organize-hybrid-teaching)
 
-The structure in the following text is that it is organized per type of room (meeting rooms, colloquim room, instruction rooms, huddle rooms), for each room an inventory is presented and the typical use of the room is described. Subsequently a recommendation is given for organizing the typical use of that room in a hybrid fashion, combining in real-life and online participants.
+The structure in the following text is that it is organized per type of room (meeting rooms, colloquim room, instruction rooms, huddle rooms), for each room an inventory is presented and the typical use of the room is described. Subsequently a recommendation is given for organizing the typical use of that room in a hybrid fashion, combining in real-life (IRL) and online participants.
 
 ## Meeting rooms
 
 We have a number of meeting rooms at the DCCN for meetings ranging from about 5 to 20 people. We commonly use these for group meetings where someone might present, but the interaction between all attendees is relatively symmetric and there is a lot of discussion. This is a many-to-many setup.
 
-Since the meeting rooms are rectangular and have a rectangular table, the meetings have a U-shaped seating arrangement. The two long sides of the table have the most chairs, the side furthest away from the projection screen wall has a few chairs. The majority of the people present in real-life need to turn sideways to look at the projection screen.
+Since the meeting rooms are rectangular and have a rectangular table, the meetings often have a U-shaped seating arrangement. The two long sides of the table have the most chairs, the side furthest away from the projection screen wall has a few chairs. The majority of the people present in real-life need to turn sideways to look at the projection screen.
 
 ### Mid-sized room (Oval Office)
 
-The DCCN Oval Office is a medium sized room that can comfortably hold approximately 10 to 20 people. The setup consists of an oval table (hence the name) with chairs directly around it, with a second row of tables along the walls. There is a beamer that projects onto one of the short walls, and there are two speakers along that wall. 
+The DCCN Oval Office is a medium sized room that can comfortably hold approximately 10 to 20 people. The setup consists of an oval table (hence the name) with chairs directly around it, and a second row of tables along the walls. There is a beamer that projects onto one of the short walls, and there are two speakers along that wall.
 
-The room also has a presentation computer that is hooked up to the beamer and room audio, and to the [Meeting Owl](http://owllabs.com/) that is placed in the middle of the table.
+The room also has a desktop presentation computer hooked up to the projection system and the room audio, and to the [Meeting Owl](http://owllabs.com/) that is placed in the middle of the table.
 
 You can also connect your own laptop to the LCD screen and audio using a HDMI cable or using a VGA cable and select that as the source on the [AMX switch panel](https://intranet.donders.ru.nl/index.php?id=audio-video).
 
 ### Smaller meeting rooms (Levelt, Adelbertus, Friston, Kutas, Cajal)
 
-We have a number of meeting rooms at the DCCN that accomodate about 10 people. The setup  usually consists of a large rectangular, with a large LCD television screen and speakers along one of the short walls.
+We have a number of meeting rooms at the DCCN that accomodate about 10 people. The setup  usually consists of a large rectangular table, with a large LCD television screen and speakers mounted on one of the short walls.
 
-These rooms also have a general purpose presentation computer that is hooked up to the LCD screen and room audio, and to the [Meeting Owl](http://owllabs.com/) that is placed on the middle of the table.
+These rooms also have a desktop presentation computer hooked up to the LCD screen and the room audio, and to the [Meeting Owl](http://owllabs.com/) that is placed on the middle of the table.
 
 You can also connect your own laptop to the LCD screen and audio using a HDMI cable and select that as the source on the [AMX switch panel](https://intranet.donders.ru.nl/index.php?id=audio-video).
 
 ### How to run a hybrid meeting
 
-For hybrid meetings in the smaller rooms we assume that people attending in real life and people attending online are equally important. The host is assumed to be present in real life as somebody needs to open the room and set it up. The presenter and/or discussion partners could be either working from home, or be present in real life.
+For hybrid meetings in the smaller rooms we assume that people attending in real life and people attending online are equally important. The host is assumed to be present in real life, as somebody needs to open the room and set it up. The main presenter and/or discussion partners could be either working from home, or be present in real life.
 
 The recommended procedure is:
 
 1. Everybody that attends in real-life brings a laptop
 2. The host starts the online meeting on his/her laptop
-3. The host joins the online meeting on the general purpose desktop PC
-4. The real-life attendants join the meeting on their laptop
-5. The online attendants join the meeting on their laptop at home
-6. Presentations and/or screen sharing are done from the individuals' laptop 
+3. The host joins the online meeting on the desktop presentation computer
+4. The real-life attendees join the meeting on their laptops
+5. The online attendees join the meeting on their laptops at home
+6. Presentations and/or screen sharing are done from the individuals' laptops 
 
 The general observation is that everyone attending needs to distribute their attention between three things: the people that are present IRL, the people that are present online, and the presentation or shared screen. Important is that all attendees (either IRL or online) can see each other mutually well.
 
-The Meeting Owl on the middle of the table is used as 360-degree camera and as speaker. The sound coming from the middle of the table (instead of from the wall) gives the online attendants a better presence in the room. The host and all IRL attendees that join the meeting on their laptop must mute the microphone and speakers from their laptop to prevent feedback. All audio should go over the meeting room desktop presentation computer and the Meeting Owl.
+The Meeting Owl on the middle of the table is used as 360-degree camera and as speaker. The sound coming from the middle of the table (instead of from the wall) gives the online attendees a better presence in the room. The host and all IRL attendees that join the meeting on their laptop must mute the microphone and speakers from their laptop to prevent feedback. All audio should go over the meeting room desktop presentation computer and the Meeting Owl.
 
-The IRL attendees with a laptop in front of them switch attention between the shared presentation (on their laptop), the online attendees (on their laptop) and the other attendees at the table. Shifting attention between online attendees and people present IRL only requires glancing at or over the laptop screen, but does not require a 90-degree turn. Since the Meeting Owl is in the middle of the table, either looking at the laptop screen or to people on the other side of the table will result in a gaze directed approximately to the 360-degree camera AND to their own laptop webcam. Consequently, for participants joining from home the IRL person is still looking in their general direction. 
+The IRL attendees with a laptop in front of them switch attention between the shared presentation (on their laptop), the online attendees (on their laptop) and the other attendees at the table. Shifting attention between online participants and people present IRL only requires glancing at or over the laptop screen, but does not require a 90-degree turn. Since the Meeting Owl is in the middle of the table, either looking at the laptop screen or to people on the other side of the table will result in a gaze towards the 360-degree camera AND to their own laptop webcam. Consequently, for online participants at home the IRL person is still looking in their general direction.
 
-The meeting room presentation computer attached to the wall-mounted projection or LCD screen does not really have to be used in hybrid meetings, except by those IRL attendees that did not bring their own device. They can follow the presentation and online attendees on the wall-mounted projection or LCD screen. 
-
-For IRL attendees without their own device, it is harder to observe detailled facial expressions of online attendees, and the online attendees will also not be able to see these IRL participants well. In case an IRL attendee talks to one of the online attendees, the IRL attendee will be probably be looking at the wall-mounted projection screen and hence the online attendee will see the speaking person (via the 360-degree camera) looking sideways. Furthermore, people that did not bring their own device cannot follow the online chat, cannot follow URLs that are posted there, and cannot influence the layout and/or size of the presentation on the wall-mounted screen, and the layout and/or size of the video of the online attendees. 
+The meeting room presentation computer attached to the wall-mounted projection or LCD screen does not really have to be used in hybrid meetings, except by those IRL attendees that did not bring their own device. They can follow the presentation and online attendees on the wall-mounted projection or LCD screen. For IRL participants without their own device, it is harder to observe detailled facial expressions of online participants, and in reverse the online participants will also not be able to see these IRL participants well. In case an IRL participant talks to one of the online participant, the person present in real-life will probably be looking at the wall-mounted projection screen and hence the online participant will see the speaking person (via the 360-degree camera) looking sideways, which is awkward for the social interaction. Furthermore, people that did not bring their own device cannot follow the online chat where often background material is shared, cannot influence the layout and/or size of the presentation on the wall-mounted screen, nor the layout and/or size of the video of the online attendees.
 
 ## Large conference room (Red Room)
 
