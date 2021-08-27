@@ -6,7 +6,7 @@ TL;DR. For concrete recommendations you can jump to
 - [How to run a hybrid lecture/presentation in the Red Room](#How-to-run-a-hybrid-lecturepresentation)
 - [How to organize hybrid teaching in the instruction rooms](#How-to-organize-hybrid-teaching)
 
-The structure in the following text is that it is organized per type of room (meeting rooms, colloquim room, instruction rooms, huddle rooms), for each room an inventory is presented and the typical use of the room is described. Subsequently a recommendation is given for organizing the typical meeting in that room in a hybrid (in real-life and online) fashion.
+The structure in the following text is that it is organized per type of room (meeting rooms, colloquim room, instruction rooms, huddle rooms), for each room an inventory is presented and the typical use of the room is described. Subsequently a recommendation is given for organizing the typical use of that room in a hybrid fashion, combining in real-life and online participants.
 
 ## Meeting rooms
 
