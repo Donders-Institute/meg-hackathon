@@ -43,6 +43,8 @@ The recommended procedure is:
 5. The online attendees join the meeting on their laptops at home
 6. Presentations and/or screen sharing are done from the individuals' laptops 
 
+_In the Oval Office we recommend that you use the "Behringer UMC204HD" audio interface. It is connected to the two microphones in the middle of the table and they record the sound of the IRL participants better than the Meeting Owl microphone. For the other (smaller) meeting rooms the microphone of the Meeting Owl is fine._
+
 The general observation is that everyone attending needs to distribute their attention between three things: the people that are present IRL, the people that are present online, and the presentation or shared screen. Important is that all attendees (either IRL or online) can see each other mutually well.
 
 The Meeting Owl on the middle of the table is used as 360-degree camera and as speaker. The sound coming from the middle of the table (instead of from the wall) gives the online attendees a better presence in the room. The host and all IRL attendees that join the meeting on their laptop must mute the microphone and speakers from their laptop to prevent feedback. All audio should go over the meeting room desktop presentation computer and the Meeting Owl.
